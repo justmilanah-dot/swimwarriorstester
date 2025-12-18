@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Swim Warriors | Dawsonville</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #0b1d2a;
+      background: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0b1d2a;
+      color: white;
+      padding: 18px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: 500;
+    }
+
+    .hero {
+      background: url("images/hero.jpg") center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      padding-left: 60px;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      max-width: 600px;
+    }
+
+    section {
+      padding: 80px 60px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .card {
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      background: white;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card div {
+      padding: 20px;
+    }
+
+    .cta {
+      background: #0b1d2a;
+      color: white;
+      text-align: center;
+      padding: 80px 40px;
+    }
+
+    .cta a {
+      background: white;
+      color: #0b1d2a;
+      padding: 15px 35px;
+      border-radius: 40px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+      display: inline-block;
+    }
+
+    footer {
+      background: #f2f2f2;
+      padding: 40px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <strong>Swim Warriors</strong>
+  <nav>
+    <a href="#programs">Programs</a>
+    <a href="#lessons">Lessons</a>
+    <a href="#shop">Shop</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Building Confident Swimmers in Dawsonville</h1>
+</section>
+
+<section id="programs">
+  <h2>Our Programs</h2>
+  <p>Swim Warriors offers structured swim programs designed to build confidence, safety, and strength in the water.</p>
+
+  <div class="cards">
+    <div class="card">
+      <img src="images/program1.jpg">
+      <div><strong>Learn to Swim</strong><br>Beginner-focused lessons</div>
+    </div>
+    <div class="card">
+      <img src="images/program2.jpg">
+      <div><strong>Stroke Development</strong><br>Technique & endurance</div>
+    </div>
+    <div class="card">
+      <img src="images/program3.jpg">
+      <div><strong>Competitive Prep</strong><br>For advancing swimmers</div>
+    </div>
+  </div>
+</section>
+
+<section id="lessons">
+  <h2>Private & Group Lessons</h2>
+  <p>Customized instruction for every age and skill level.</p>
+</section>
+
+<section id="shop">
+  <h2>Swim Warriors Shop</h2>
+  <p>Support our mission and shop official Swim Warriors gear.</p>
+
+  <div class="cta">
+    <h2>Visit the Shop</h2>
+    <a href="https://www.swimwarriorsshop.com" target="_blank">Shop Now</a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Dawsonville, GA<br>Email: info@swimwarriors.com</p>
+</section>
+
+<footer>
+  © Swim Warriors • Dawsonville, GA
+</footer>
+
+</body>
+</html>
